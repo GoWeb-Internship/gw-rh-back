@@ -4,7 +4,8 @@
   "info": {
     "singularName": "test",
     "pluralName": "tests",
-    "displayName": "test"
+    "displayName": "test",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,6 +14,15 @@
   "attributes": {
     "title": {
       "type": "string"
+    },
+    "project": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::project.project",
+      "mappedBy": "description"
+    },
+    "markdown": {
+      "type": "richtext"
     }
   }
 }

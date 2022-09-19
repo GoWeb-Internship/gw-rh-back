@@ -44,6 +44,24 @@
       "type": "string",
       "unique": false,
       "required": true
+    },
+    "description": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::test.test",
+      "inversedBy": "project"
+    },
+    "accordion_modules": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::accordion-module.accordion-module",
+      "mappedBy": "project"
+    },
+    "project_sections": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::project-section.project-section",
+      "mappedBy": "project"
     }
   }
 }
