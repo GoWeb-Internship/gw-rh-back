@@ -1,15 +1,17 @@
 {
   "collectionName": "components_footer_links",
   "info": {
-    "displayName": "Links"
+    "displayName": "Links",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "link": {
+    "path": {
       "type": "string"
     },
-    "linkName": {
-      "type": "string"
+    "name": {
+      "type": "string",
+      "required": true
     }
   }
 }
