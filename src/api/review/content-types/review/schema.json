@@ -60,6 +60,11 @@
       "relation": "oneToOne",
       "target": "api::project.project",
       "inversedBy": "review"
+    },
+    "page_module": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page-module.page-module"
     }
   }
 }
