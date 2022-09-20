@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_section_markdown_quote_s",
+  "info": {
+    "displayName": "MD (optional quote)",
+    "icon": "quote-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "body": {
+      "type": "richtext",
+      "required": true
+    },
+    "quote": {
+      "type": "text"
+    },
+    "showTitle": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    }
+  }
+}
