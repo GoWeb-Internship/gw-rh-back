@@ -44,7 +44,7 @@
       "type": "string",
       "unique": false,
       "required": true,
-      "regex": "/^[a-z0-9]+(?:-[a-z0-9]+)*$/"
+      "regex": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
     },
     "modules_section": {
       "type": "relation",
