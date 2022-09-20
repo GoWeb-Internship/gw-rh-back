@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "methodologies",
+  "info": {
+    "singularName": "methodology",
+    "pluralName": "methodologies",
+    "displayName": "02. Методология курса",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "sections": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "section.markdown-quote",
+      "required": true
+    },
+    "project": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::project.project",
+      "inversedBy": "methodology"
+    },
+    "page_module": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page-module.page-module"
+    }
+  }
+}
