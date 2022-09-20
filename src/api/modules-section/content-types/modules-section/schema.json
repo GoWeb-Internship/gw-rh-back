@@ -32,6 +32,11 @@
       "relation": "oneToOne",
       "target": "api::project.project",
       "inversedBy": "modules_section"
+    },
+    "page_module": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page-module.page-module"
     }
   }
 }
