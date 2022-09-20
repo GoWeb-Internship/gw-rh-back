@@ -2,13 +2,14 @@
   "collectionName": "components_list_video_lists",
   "info": {
     "displayName": "Video list",
-    "icon": "video"
+    "icon": "video",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "videoID": {
       "type": "string",
-      "unique": true,
+      "unique": false,
       "required": true
     },
     "videoTitle": {
