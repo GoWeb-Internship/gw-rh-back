@@ -33,6 +33,16 @@
       },
       "type": "integer",
       "required": true
+    },
+    "page_module_identifier": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string",
+      "unique": false,
+      "required": true
     }
   }
 }
