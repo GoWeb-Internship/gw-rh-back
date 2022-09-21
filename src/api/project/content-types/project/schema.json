@@ -4,7 +4,7 @@
   "info": {
     "singularName": "project",
     "pluralName": "projects",
-    "displayName": "Project",
+    "displayName": "09. Проекты",
     "description": ""
   },
   "options": {
@@ -43,25 +43,55 @@
       },
       "type": "string",
       "unique": false,
-      "required": true
+      "required": true,
+      "regex": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
     },
-    "description": {
+    "modules_section": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "api::test.test",
-      "inversedBy": "project"
-    },
-    "accordion_modules": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::accordion-module.accordion-module",
+      "target": "api::modules-section.modules-section",
       "mappedBy": "project"
     },
-    "project_sections": {
+    "seminar": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::seminar.seminar",
+      "mappedBy": "project"
+    },
+    "price": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::price.price",
+      "mappedBy": "project"
+    },
+    "review": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::review.review",
+      "mappedBy": "project"
+    },
+    "benefit": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::benefit.benefit",
+      "mappedBy": "project"
+    },
+    "methodology": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::methodology.methodology",
+      "mappedBy": "project"
+    },
+    "overview": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::overview.overview",
+      "mappedBy": "project"
+    },
+    "page_modules": {
       "type": "relation",
       "relation": "oneToMany",
-      "target": "api::project-section.project-section",
-      "mappedBy": "project"
+      "target": "api::page-module.page-module"
     }
   }
 }
