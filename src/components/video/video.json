@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_video_videos",
+  "info": {
+    "displayName": "video",
+    "icon": "photo-video",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "videoID": {
+      "type": "string"
+    },
+    "videoTitle": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "published": {
+      "type": "date"
+    }
+  }
+}
