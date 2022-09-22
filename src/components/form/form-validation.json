@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_form_form_validations",
+  "info": {
+    "displayName": "Form_validation",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "error": {
+      "type": "string",
+      "required": false
+    },
+    "placeholder": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
