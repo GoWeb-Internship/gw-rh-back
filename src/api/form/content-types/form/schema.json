@@ -55,6 +55,17 @@
       },
       "type": "string",
       "required": true
+    },
+    "error": {
+      "displayName": "Errors",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "form.errors"
     }
   }
 }

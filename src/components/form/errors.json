@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_form_errors",
+  "info": {
+    "displayName": "Errors",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "min": {
+      "type": "string",
+      "required": false
+    },
+    "max": {
+      "type": "string"
+    },
+    "required": {
+      "type": "string"
+    },
+    "symbol": {
+      "type": "string"
+    },
+    "validName": {
+      "type": "string"
+    },
+    "validEmail": {
+      "type": "string"
+    },
+    "matches": {
+      "type": "string"
+    }
+  }
+}
