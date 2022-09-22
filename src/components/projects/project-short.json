@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_projects_project_shorts",
+  "info": {
+    "displayName": "projectShort"
+  },
+  "options": {},
+  "attributes": {
+    "projectTitle": {
+      "type": "string",
+      "required": true
+    },
+    "projectIdea": {
+      "type": "string",
+      "required": true
+    },
+    "projectDescription": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
