@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "modules_sections",
+  "info": {
+    "singularName": "modules-section",
+    "pluralName": "modules-sections",
+    "displayName": "04. Модули",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "module": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "section.module",
+      "required": true
+    },
+    "project": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::project.project",
+      "inversedBy": "modules_section"
+    },
+    "page_module": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page-module.page-module"
+    }
+  }
+}

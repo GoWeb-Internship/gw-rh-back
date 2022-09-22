@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_section_modules",
+  "info": {
+    "displayName": "Module",
+    "icon": "newspaper",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "unique": false,
+      "required": true
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext",
+      "required": true
+    },
+    "videoID": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

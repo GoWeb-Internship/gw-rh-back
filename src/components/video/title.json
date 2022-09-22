@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_video_titles",
+  "info": {
+    "displayName": "title",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "mainTitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

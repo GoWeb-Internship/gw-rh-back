@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_list_text_reviews_lists",
+  "info": {
+    "displayName": "Text Reviews List",
+    "icon": "list-ul"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "position": {
+      "type": "string",
+      "required": true
+    },
+    "reviewText": {
+      "type": "richtext",
+      "required": true
+    },
+    "photo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
