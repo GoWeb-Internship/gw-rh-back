@@ -77,7 +77,8 @@
         }
       },
       "type": "string",
-      "required": true
+      "required": true,
+      "maxLength": 40
     },
     "actionYears": {
       "pluginOptions": {
@@ -86,7 +87,8 @@
         }
       },
       "type": "string",
-      "required": true
+      "required": true,
+      "maxLength": 40
     },
     "learnInfo": {
       "pluginOptions": {
@@ -95,7 +97,8 @@
         }
       },
       "type": "string",
-      "required": true
+      "required": true,
+      "maxLength": 40
     },
     "readMore": {
       "pluginOptions": {
@@ -116,6 +119,15 @@
       "required": true
     },
     "afishaConsult": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "linkToBook": {
       "pluginOptions": {
         "i18n": {
           "localized": true

@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "souls",
+  "info": {
+    "singularName": "soul",
+    "pluralName": "souls",
+    "displayName": "Soul",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Soul": {
+      "type": "component",
+      "repeatable": false,
+      "component": "infopage.info-page",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

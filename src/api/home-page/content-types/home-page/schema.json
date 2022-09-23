@@ -74,15 +74,6 @@
       "type": "richtext",
       "required": true
     },
-    "linkToBook": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string",
-      "required": true
-    },
     "photoAlt": {
       "pluginOptions": {
         "i18n": {
