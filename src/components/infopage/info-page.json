@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_infopage_info_pages",
+  "info": {
+    "displayName": "InfoPage"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "body": {
+      "type": "richtext",
+      "required": true
+    },
+    "quote": {
+      "type": "text"
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}
