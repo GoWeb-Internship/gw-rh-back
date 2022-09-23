@@ -114,6 +114,15 @@
       },
       "type": "string",
       "required": true
+    },
+    "afishaConsult": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
     }
   }
 }
