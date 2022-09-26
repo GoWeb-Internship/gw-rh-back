@@ -4,7 +4,7 @@
   "info": {
     "singularName": "project",
     "pluralName": "projects",
-    "displayName": "09. Проекты",
+    "displayName": "10. Проекты",
     "description": ""
   },
   "options": {
@@ -92,6 +92,12 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::page-module.page-module"
+    },
+    "contact": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::contact.contact",
+      "mappedBy": "project"
     }
   }
 }
