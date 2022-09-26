@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_video_travel_videos",
+  "info": {
+    "displayName": "TravelVideo",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "videoId": {
+      "type": "string",
+      "required": true
+    },
+    "date": {
+      "type": "string",
+      "required": true
+    },
+    "eventTitle": {
+      "type": "string",
+      "required": true
+    },
+    "aboutEvent": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
