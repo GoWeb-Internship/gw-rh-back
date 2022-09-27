@@ -98,6 +98,16 @@
       "relation": "oneToOne",
       "target": "api::contact.contact",
       "mappedBy": "project"
+    },
+    "projectShort": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "projects.project-short"
     }
   }
 }
