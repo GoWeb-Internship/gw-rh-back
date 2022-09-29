@@ -108,6 +108,15 @@
         }
       },
       "component": "projects.project-short"
+    },
+    "treeTitle": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
     }
   }
 }
