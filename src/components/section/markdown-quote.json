@@ -22,6 +22,11 @@
       "type": "boolean",
       "default": true,
       "required": true
+    },
+    "quotes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "items.item"
     }
   }
 }
