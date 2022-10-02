@@ -15,9 +15,6 @@
       "type": "richtext",
       "required": true
     },
-    "quote": {
-      "type": "text"
-    },
     "showTitle": {
       "type": "boolean",
       "default": true,

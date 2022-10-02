@@ -33,26 +33,6 @@
       },
       "type": "text",
       "required": true
-    },
-    "projectShort": {
-      "displayName": "projectShort",
-      "type": "component",
-      "repeatable": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "projects.project-short"
-    },
-    "slug": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
-      "type": "string",
-      "required": true
     }
   }
 }
