@@ -44,24 +44,6 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::page-module.page-module"
-    },
-    "buttonText1": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string",
-      "required": true
-    },
-    "buttonText2": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string",
-      "required": true
     }
   }
 }
